@@ -1,8 +1,8 @@
 package com.diworksdev.webproj3.action;
 import com.diworksdev.webproj3.dao.LoginDAO;
 import com.diworksdev.webproj3.dto.LoginDTO;
-import com.opensymphony.xwork2.ActionSupport
-;
+import com.opensymphony.xwork2.ActionSupport;
+
 public class LoginAction extends ActionSupport {
 	private String username;
 	private String password;
